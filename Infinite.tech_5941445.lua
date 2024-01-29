@@ -2752,7 +2752,7 @@ function renderer_line(x1, y1, x2, y2, r, g, b, a) return render.line(vector(x1,
 
 function draw_heart(x, y)
     -- outline
-    -- left
+    -- 左边
     rectangle(x + 2, y + 14, 2, 2, 0, 0, 0, 255)
     rectangle(x, y + 12, 2, 2, 0, 0, 0, 255)
     rectangle(x - 2, y + 10, 2, 2, 0, 0, 0, 255)
@@ -2760,9 +2760,9 @@ function draw_heart(x, y)
     rectangle(x - 2, y + 2, 2, 2, 0, 0, 0, 255)
     rectangle(x, y, 2, 2, 0, 0, 0, 255)
     rectangle(x + 2, y, 2, 2, 0, 0, 0, 255)
-    -- center-top
+    -- 中间顶部
     rectangle(x + 4, y + 2, 2, 2, 0, 0, 0, 255)
-    -- right
+    -- 右边
     rectangle(x + 6, y, 2, 2, 0, 0, 0, 255)
     rectangle(x + 8, y, 2, 2, 0, 0, 0, 255)
     rectangle(x + 10, y + 2, 2, 2, 0, 0, 0, 255)
@@ -2770,10 +2770,10 @@ function draw_heart(x, y)
     rectangle(x + 10, y + 10, 2, 2, 0, 0, 0, 255)
     rectangle(x + 8, y + 12, 2, 2, 0, 0, 0, 255)
     rectangle(x + 6, y + 14, 2, 2, 0, 0, 0, 255)
-    -- center-bottom
+    -- 中间底部
     rectangle(x + 4, y + 16, 2, 2, 0, 0, 0, 255)
 
-    -- red-fill
+    -- 填充
     rectangle(x - 2, y + 4, 2, 6, 254, 19, 19, 255)
     rectangle(x, y + 2, 4, 2, 254, 19, 19, 255)
     rectangle(x, y + 6, 4, 6, 254, 19, 19, 255)
@@ -2784,7 +2784,7 @@ function draw_heart(x, y)
     rectangle(x + 6, y + 12, 2, 2, 254, 19, 19, 255)
     rectangle(x + 10, y + 4, 2, 6, 254, 19, 19, 255)
 
-    -- highlight
+    -- 高光
     rectangle(x, y + 4, 2, 2, 254, 199, 199, 255)
 end
 
